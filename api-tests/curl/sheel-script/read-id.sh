@@ -22,3 +22,9 @@ while true; do
   echo "$(date) - $(curl -s -o /dev/null -w "%{http_code}" https://serverest.dev/usuarios/DOQOugWPYpvN3OaS)"
   sleep 5
 done
+
+
+while true; do
+  curl -s 'https://serverest.dev/usuarios' | jq
+  sleep 5
+done

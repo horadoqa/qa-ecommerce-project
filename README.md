@@ -1,6 +1,6 @@
 # qa-ecommerce-project
 
-Projeto de Quality Assurance desenvolvido para validar a aplicação de e-commerce disponibilizada pela Serverest, simulando atividades executadas por um Analista de QA em um ambiente real de desenvolvimento.
+Projeto de Quality Assurance desenvolvido para validar a aplicação de e-commerce disponibilizada pela [Serverest](https://serverest.dev/), simulando atividades executadas por um Analista de QA em um ambiente real de desenvolvimento.
 
 O objetivo deste projeto é demonstrar conhecimentos em testes manuais e automatizados, qualidade de software, integração contínua e reporte de defeitos, utilizando ferramentas amplamente adotadas pelo mercado.
 
@@ -51,5 +51,4 @@ O objetivo deste projeto é demonstrar conhecimentos em testes manuais e automat
 ## Objetivo Profissional
 
 Este projeto faz parte do meu portfólio de QA e demonstra minha capacidade de atuar em diferentes etapas do ciclo de testes, desde a análise de requisitos até a automação, execução e monitoramento contínuo da qualidade do software.
-
 

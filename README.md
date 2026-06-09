@@ -26,7 +26,7 @@ O objetivo deste projeto é demonstrar conhecimentos em testes manuais e automat
 ### Testes de API
 
 * Postman
-* Postman
+* Newman
 
 ### Qualidade e Gestão
 

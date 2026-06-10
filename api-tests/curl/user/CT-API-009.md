@@ -1,4 +1,4 @@
-# Cadastrar Usuário (CREATE)
+# CCT-API-009 - Cadastro com e-mail duplicado
 
 ```bash
 curl --location 'https://serverest.dev/usuarios' \

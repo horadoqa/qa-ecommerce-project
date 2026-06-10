@@ -1,7 +1,7 @@
-# Editar Usuário (UPDATE)
+# CT-API-004 - Atualizar usuário (UPDATE)
 
 ```bash
-curl --location --request PUT 'https://serverest.dev/usuarios/{SEU_ID}' \
+curl --location --request PUT 'https://serverest.dev/usuarios/{_id}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "nome": "Ricardo Fahham Atualizado",

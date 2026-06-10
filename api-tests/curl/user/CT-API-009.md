@@ -1,35 +1,68 @@
-# CCT-API-009 - Cadastro com e-mail duplicado
+# CT-API-009 - Realizar Login com Credenciais Inválidas
 
-```bash
-curl --location 'https://serverest.dev/usuarios' \
+Este caso de teste contempla cenários negativos de autenticação, validando o comportamento da API quando são informadas credenciais incorretas ou inválidas.
+
+---
+
+## Cenário 1 - Login com senha inválida
+
+### Exemplo de requisição
+
+```bash id="k3m8x2"
+curl --location 'https://serverest.dev/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-  "nome": "Ricardo Fahham",
   "email": "ricardo.qa.teste@example.com",
-  "password": "123456",
-  "administrador": "true"
+  "password": "senha_errada"
 }'
 ```
 
-**Resposta esperada:**
+### Resultado esperado
 
-```json
+**Status Code:** `401 Unauthorized`
+
+```json id="n7p2v9"
 {
-  "message": "Cadastro realizado com sucesso",
-  "_id": "DOQOugWPYpvN3OaS"
+  "message": "Email e/ou senha inválidos"
 }
 ```
 
 ---
 
-## Cadastro com e-mail duplicado
+## Cenário 2 - Login com e-mail inválido
 
-Execute o cadastro duas vezes com o mesmo e-mail.
+### Exemplo de requisição
 
-**Esperado:**
+```bash id="v4x9m1"
+curl --location 'https://serverest.dev/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "email": "ricardo.qa.teste.example.com",
+  "password": "123456"
+}'
+```
 
-```json
+### Resultado esperado
+
+**Status Code:** `401 Unauthorized`
+
+```json id="t6k3q8"
 {
-  "message": "Este email já está sendo usado"
+  "message": "Email e/ou senha inválidos"
 }
 ```
+
+---
+
+### Validações gerais
+
+* O endpoint deve retornar erro de autenticação (`401 Unauthorized`).
+* A autenticação não deve ser realizada em nenhum dos cenários.
+* A mensagem de erro deve ser consistente para credenciais inválidas.
+* Nenhum token de autorização deve ser retornado.
+
+---
+
+### Critério de aprovação
+
+O teste será considerado aprovado quando a API rejeitar corretamente o login em ambos os cenários de credenciais inválidas, retornando a mensagem apropriada e sem gerar token de autenticação.

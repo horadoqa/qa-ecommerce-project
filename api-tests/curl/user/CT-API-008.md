@@ -1,43 +1,36 @@
-# CT-API-008 - Login com senha inválida
+# CT-API-008 - Validar Exclusão do Usuário
 
-Cenários Negativos para seus Casos de Teste
+Após a execução da exclusão do usuário, consulte o registro utilizando o identificador (`_id`) para confirmar que o usuário foi removido corretamente da base de dados.
 
-## Login com senha inválida
+### Exemplo de requisição
 
-```bash
-curl --location 'https://serverest.dev/login' \
---header 'Content-Type: application/json' \
---data-raw '{
-  "email": "ricardo.qa.teste@example.com",
-  "password": "senha_errada"
-}'
-```
-
-**Esperado:**
-
-```json
-{
-  "message": "Email e/ou senha inválidos"
-}
+```bash id="p2v7m1"
+curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
 ---
 
-## Login com e-mail inválida
+## Resultado esperado
 
-```bash
-curl --location 'https://serverest.dev/login' \
---header 'Content-Type: application/json' \
---data-raw '{
-  "email": "ricardo.qa.teste.example.com",
-  "password": "123456"
-}'
-```
+**Status Code:** `400 Bad Request`
 
-**Esperado:**
+**Response Body:**
 
-```json
+```json id="x9k3n6"
 {
-  "message": "Email e/ou senha inválidos"
+  "message": "Usuário não encontrado"
 }
 ```
+
+### Validações
+
+* O endpoint deve retornar o status `400 Bad Request`.
+* A resposta deve conter a mensagem `Usuário não encontrado`.
+* O usuário não deve mais existir na base de dados.
+* O `_id` utilizado na requisição não deve retornar nenhum registro válido.
+
+---
+
+## Critério de aprovação
+
+O teste será considerado aprovado quando a API confirmar que o usuário não foi encontrado após a exclusão, garantindo que o registro foi removido com sucesso.

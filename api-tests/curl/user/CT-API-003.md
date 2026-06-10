@@ -1,17 +1,37 @@
-# CT-API-003 - Buscar usuário por ID
+# CT-API-003 - Buscar Usuário por ID (READ ONE)
 
-Substitua o ID pelo retornado no cadastro.
+Para consultar um usuário específico, utilize o identificador (`_id`) retornado no momento do cadastro.
 
-```bash
+### Exemplo de requisição
+
+```bash id="u3k9m1"
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
 ---
 
-# Listar todos os Usuários (READ)
+## Resultado esperado
 
-```bash
-curl --location 'https://serverest.dev/usuarios'
+**Status Code:** `200 OK`
+
+**Response Body:**
+
+```json id="p7x2q8"
+{
+  "nome": "Ricardo Fahham",
+  "email": "ricardo.qa.teste@example.com",
+  "password": "123456",
+  "administrador": "true",
+  "_id": "DOQOugWPYpvN3OaS"
+}
 ```
 
+### Validações
+
+* O endpoint deve retornar o status `200 OK`.
+* O usuário deve ser localizado com base no `_id` informado.
+* Os dados retornados devem corresponder ao usuário cadastrado.
+* O campo `_id` deve ser igual ao informado na requisição.
+
 ---
+

@@ -1,31 +1,51 @@
-Para os testes de API no ServeRest, você pode cobrir todo o CRUD de usuários e autenticação com os seguintes exemplos de `curl`.
+# Suíte de Testes - Usuários
 
-**Base URL:**
+### 🔹 Autenticação
 
-```bash
-https://serverest.dev
-```
-
-As rotas de Login e Usuários são documentadas oficialmente pelo [ServeRest](https://serverest.dev).
+* CT-API-002 - Realizar Login com Sucesso
+* CT-API-009 - Realizar Login com Credenciais Inválidas
 
 ---
 
-## Fluxo completo:
+### 🔹 CRUD de Usuários
 
-```text
-CT-API-001 - Cadastrar usuário administrador
-CT-API-002 - Realizar login com sucesso
-CT-API-003 - Buscar usuário por ID
-CT-API-004 - Atualizar usuário
-CT-API-005 - Validar alteração realizada
-CT-API-006 - Excluir usuário
-CT-API-007 - Validar exclusão
-CT-API-008 - Login com senha inválida
-CT-API-009 - Cadastro com e-mail duplicado
-CT-API-010 - Buscar usuário inexistente
-```
+* CT-API-001 - Cadastrar Usuário Administrador (CREATE)
+* CT-API-003 - Buscar Usuário por ID (READ ONE)
+* CT-API-004 - Listar Usuários (READ ALL)
+* CT-API-005 - Atualizar Usuário (UPDATE)
+* CT-API-006 - Validar Alteração do Usuário
+* CT-API-007 - Excluir Usuário (DELETE)
+* CT-API-008 - Validar Exclusão do Usuário
 
-Essa sequência já cobre o CRUD completo de usuários e autenticação, sendo uma excelente base para Postman, Newman e automação em CI/CD.
+---
 
-Podendo ser utilizada nos Testes Automatizados
+### 🔹 Cenários Negativos
+
+* CT-API-010 - Cadastro de Usuário com E-mail Duplicado
+* CT-API-011 - Buscar Usuário Inexistente
+
+---
+
+## 🔁 Fluxo sugerido de execução
+
+1. Criar usuário administrador
+2. Realizar login
+3. Buscar usuário por ID
+4. Listar usuários
+5. Atualizar usuário
+6. Validar atualização
+7. Excluir usuário
+8. Validar exclusão
+
+---
+
+## 🎯 Critérios gerais
+
+* E-mails devem ser únicos na base
+* Tokens devem ser necessários para operações protegidas
+* Exclusões devem remover completamente o registro
+* Consultas após exclusão devem retornar erro
+* Atualizações devem persistir corretamente
+
+---
 

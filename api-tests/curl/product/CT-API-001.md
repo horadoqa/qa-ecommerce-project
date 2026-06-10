@@ -1,9 +1,19 @@
-# Criar Produto (CREATE)
+# CT-API-001 - Cadastrar Produto (CREATE)
+
+Para cadastrar um produto, é necessário utilizar o token de autenticação obtido no endpoint de login.
+
+Envie o token no cabeçalho `Authorization` utilizando o padrão:
+
+```http
+Authorization: Bearer <token>
+```
+
+### Exemplo de requisição
 
 ```bash
 curl --location 'https://serverest.dev/produtos' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpY2FyZG8ucWEudGVzdGVAZXhhbXBsZS5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc4MTAzNjU2NiwiZXhwIjoxNzgxMDM3MTY2fQ.I1tDVKynppbBqWCYH7WdECijY-EpWK3uQMG8Gh9Fkx8' \
+--header 'Authorization: Bearer <token>' \
 --data-raw '{
   "nome": "Mouse Gamer QA",
   "preco": 150,
@@ -14,14 +24,26 @@ curl --location 'https://serverest.dev/produtos' \
 
 ---
 
-## Esperado:
+## Resultado esperado
+
+**Status Code:** `201 Created`
+
+**Response Body:**
 
 ```json
 {
-    "message": "Cadastro realizado com sucesso",
-    "_id": "luZ2p6CIt58ggE67"
+  "message": "Cadastro realizado com sucesso",
+  "_id": "luZ2p6CIt58ggE67"
 }
 ```
+
+### Validações
+
+* O token de autenticação deve ser válido.
+* O produto deve ser cadastrado com sucesso.
+* A resposta deve retornar a mensagem de confirmação.
+* O campo `_id` deve ser gerado automaticamente e retornado na resposta.
+
 
 ---
 
@@ -32,7 +54,6 @@ curl --location 'https://serverest.dev/produtos' \
 ```bash
 curl --location 'https://serverest.dev/produtos' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer SEU_TOKEN' \
 --data-raw '{
   "nome": "Mouse Gamer QA",
   "preco": 150,
@@ -56,7 +77,7 @@ curl --location 'https://serverest.dev/produtos' \
 ```bash
 curl --location 'https://serverest.dev/produtos' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer SEU_TOKEN' \
+--header 'Authorization: Bearer <token>' \
 --data-raw '{
   "nome": "Mouse Gamer QA",
   "preco": 150,
@@ -82,7 +103,7 @@ curl --location 'https://serverest.dev/produtos' \
 ```bash
 curl --location 'https://serverest.dev/produtos' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer SEU_TOKEN' \
+--header 'Authorization: Bearer <token>' \
 --data-raw '{
   "nome": "Produto inválido",
   "preco": -10,
@@ -108,7 +129,7 @@ curl --location 'https://serverest.dev/produtos' \
 ```bash
 curl --location 'https://serverest.dev/produtos' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer SEU_TOKEN' \
+--header 'Authorization: Bearer <token>' \
 --data-raw '{
   "nome": "Sem estoque",
   "preco": 100,

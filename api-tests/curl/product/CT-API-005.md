@@ -4,7 +4,7 @@ Após a execução da operação de atualização, consulte o produto utilizando
 
 ### Exemplo de requisição
 
-```bash id="x7y2qk"
+```bash
 curl --location 'https://serverest.dev/produtos/{_id}'
 ```
 
@@ -16,7 +16,7 @@ curl --location 'https://serverest.dev/produtos/{_id}'
 
 **Response Body:**
 
-```json id="v8c4pn"
+```json
 {
   "nome": "Mouse Gamer QA Updated",
   "preco": 200,

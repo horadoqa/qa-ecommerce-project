@@ -4,7 +4,7 @@ Para atualizar os dados de um usuário, é necessário informar o identificador 
 
 ### Exemplo de requisição
 
-```bash id="q7m3k9"
+```bash
 curl --location --request PUT 'https://serverest.dev/usuarios/{_id}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -19,11 +19,11 @@ curl --location --request PUT 'https://serverest.dev/usuarios/{_id}' \
 
 ## Resultado esperado
 
-**Status Code:** `200 OK`
+**Status Code:** `200 OK` ou `201`
 
 **Response Body:**
 
-```json id="t5x8n2"
+```json
 {
   "message": "Registro alterado com sucesso"
 }
@@ -45,7 +45,7 @@ Após a atualização, recomenda-se realizar uma consulta do usuário por ID par
 
 ### Exemplo de validação
 
-```bash id="h4p9v1"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 

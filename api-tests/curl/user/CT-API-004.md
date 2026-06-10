@@ -4,7 +4,7 @@ Para consultar todos os usuários cadastrados na base, utilize o endpoint de lis
 
 ### Exemplo de requisição
 
-```bash id="v6n1s4"
+```bash
 curl --location 'https://serverest.dev/usuarios'
 ```
 
@@ -16,7 +16,7 @@ curl --location 'https://serverest.dev/usuarios'
 
 **Response Body:**
 
-```json id="k2m8d7"
+```json
 {
   "quantidade": 2,
   "usuarios": [

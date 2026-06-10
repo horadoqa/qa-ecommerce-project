@@ -4,7 +4,7 @@ Após a execução da atualização do usuário, consulte o registro utilizando 
 
 ### Exemplo de requisição
 
-```bash id="m3k8q1"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
@@ -16,7 +16,7 @@ curl --location 'https://serverest.dev/usuarios/{_id}'
 
 **Response Body:**
 
-```json id="v9n2x6"
+```json
 {
   "nome": "Ricardo Fahham Atualizado",
   "email": "ricardo.qa@example.com",

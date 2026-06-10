@@ -21,7 +21,7 @@ curl --location 'https://serverest.dev/produtos'
   "quantidade": 15,
   "produtos": [
     {
-      "nome": "Mouse Gamer QA 2",
+      "nome": "Mouse Gamer QA",
       "preco": 150,
       "descricao": "Mouse para testes de automação",
       "quantidade": 0,

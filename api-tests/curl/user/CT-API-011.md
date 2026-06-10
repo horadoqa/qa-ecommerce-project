@@ -8,7 +8,7 @@ Este caso de teste valida o comportamento da API ao tentar consultar um usuário
 
 ### Exemplo de requisição
 
-```bash id="k6m2x8"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
@@ -20,7 +20,7 @@ curl --location 'https://serverest.dev/usuarios/{_id}'
 
 **Status Code:** `400 Bad Request`
 
-```json id="p9v3n7"
+```json
 {
   "message": "Usuário não encontrado"
 }

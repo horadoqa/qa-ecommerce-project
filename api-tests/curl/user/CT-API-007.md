@@ -6,7 +6,7 @@ A operação de exclusão remove permanentemente o registro da base de dados.
 
 ### Exemplo de requisição
 
-```bash id="k8m2v7"
+```bash
 curl --location --request DELETE 'https://serverest.dev/usuarios/{_id}'
 ```
 
@@ -18,7 +18,7 @@ curl --location --request DELETE 'https://serverest.dev/usuarios/{_id}'
 
 **Response Body:**
 
-```json id="n4p9x2"
+```json
 {
   "message": "Registro excluído com sucesso"
 }
@@ -39,13 +39,13 @@ Após a exclusão, recomenda-se realizar uma consulta pelo `_id` para validar se
 
 ### Exemplo de validação
 
-```bash id="h6v3q1"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
 ### Resultado esperado
 
-```json id="t7x8m4"
+```json
 {
   "message": "Usuário não encontrado"
 }

@@ -4,7 +4,7 @@ Para cadastrar um usuário administrador, envie os dados obrigatórios no corpo 
 
 ### Exemplo de requisição
 
-```bash id="a8x7m2"
+```bash
 curl --location 'https://serverest.dev/usuarios' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -23,7 +23,7 @@ curl --location 'https://serverest.dev/usuarios' \
 
 **Response Body:**
 
-```json id="p5v9q3"
+```json
 {
   "message": "Cadastro realizado com sucesso",
   "_id": "DOQOugWPYpvN3OaS"
@@ -51,7 +51,7 @@ Execute novamente a requisição utilizando um e-mail já cadastrado.
 
 **Response Body:**
 
-```json id="x4m7n8"
+```json
 {
   "message": "Este email já está sendo usado"
 }

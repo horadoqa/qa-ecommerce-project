@@ -4,7 +4,7 @@ Para consultar um usuário específico, utilize o identificador (`_id`) retornad
 
 ### Exemplo de requisição
 
-```bash id="u3k9m1"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
@@ -16,7 +16,7 @@ curl --location 'https://serverest.dev/usuarios/{_id}'
 
 **Response Body:**
 
-```json id="p7x2q8"
+```json
 {
   "nome": "Ricardo Fahham",
   "email": "ricardo.qa.teste@example.com",

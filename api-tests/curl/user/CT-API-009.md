@@ -8,7 +8,7 @@ Este caso de teste contempla cenários negativos de autenticação, validando o 
 
 ### Exemplo de requisição
 
-```bash id="k3m8x2"
+```bash
 curl --location 'https://serverest.dev/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -21,7 +21,7 @@ curl --location 'https://serverest.dev/login' \
 
 **Status Code:** `401 Unauthorized`
 
-```json id="n7p2v9"
+```json
 {
   "message": "Email e/ou senha inválidos"
 }
@@ -33,7 +33,7 @@ curl --location 'https://serverest.dev/login' \
 
 ### Exemplo de requisição
 
-```bash id="v4x9m1"
+```bash
 curl --location 'https://serverest.dev/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -46,7 +46,7 @@ curl --location 'https://serverest.dev/login' \
 
 **Status Code:** `401 Unauthorized`
 
-```json id="t6k3q8"
+```json
 {
   "message": "Email e/ou senha inválidos"
 }

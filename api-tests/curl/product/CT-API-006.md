@@ -6,7 +6,7 @@ A exclusão deve remover permanentemente o registro da base de dados.
 
 ### Exemplo de requisição
 
-```bash id="r8x4m2"
+```bash
 curl --location --request DELETE 'https://serverest.dev/produtos/{_id}' \
 --header 'Authorization: Bearer <token>'
 ```
@@ -19,7 +19,7 @@ curl --location --request DELETE 'https://serverest.dev/produtos/{_id}' \
 
 **Response Body:**
 
-```json id="j5n7q1"
+```json
 {
   "message": "Registro excluído com sucesso"
 }
@@ -41,7 +41,7 @@ Após a exclusão, recomenda-se realizar uma nova consulta utilizando o mesmo `_
 
 ### Exemplo de validação
 
-```bash id="w2p9f6"
+```bash
 curl --location 'https://serverest.dev/produtos/{_id}'
 ```
 
@@ -51,7 +51,7 @@ curl --location 'https://serverest.dev/produtos/{_id}'
 
 **Response Body:**
 
-```json id="k3v8d4"
+```json
 {
   "message": "Produto não encontrado"
 }

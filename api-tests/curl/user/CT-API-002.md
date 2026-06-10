@@ -6,7 +6,7 @@ Quando a autenticação for realizada com sucesso, a API retornará um token de 
 
 ### Exemplo de requisição
 
-```bash id="l9m2x4"
+```bash
 curl --location 'https://serverest.dev/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -23,7 +23,7 @@ curl --location 'https://serverest.dev/login' \
 
 **Response Body:**
 
-```json id="n8q5w1"
+```json
 {
   "message": "Login realizado com sucesso",
   "authorization": "Bearer eyJ..."
@@ -46,7 +46,7 @@ Armazene o valor retornado no campo `authorization`, pois ele será utilizado no
 
 ### Exemplo de utilização
 
-```http id="c4r7t9"
+```http
 Authorization: Bearer <token>
 ```
 

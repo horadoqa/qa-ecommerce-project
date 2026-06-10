@@ -4,7 +4,7 @@ Após a execução da exclusão do usuário, consulte o registro utilizando o id
 
 ### Exemplo de requisição
 
-```bash id="p2v7m1"
+```bash
 curl --location 'https://serverest.dev/usuarios/{_id}'
 ```
 
@@ -16,7 +16,7 @@ curl --location 'https://serverest.dev/usuarios/{_id}'
 
 **Response Body:**
 
-```json id="x9k3n6"
+```json
 {
   "message": "Usuário não encontrado"
 }

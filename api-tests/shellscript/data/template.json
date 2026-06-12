@@ -1,0 +1,302 @@
+[
+  {
+    "nome": "Ana Silva",
+    "email": "ana.silva1@example.com",
+    "password": "Senha@1001",
+    "administrator": false
+  },
+  {
+    "nome": "Bruno Souza",
+    "email": "bruno.souza2@example.com",
+    "password": "Senha@1002",
+    "administrator": true
+  },
+  {
+    "nome": "Carla Oliveira",
+    "email": "carla.oliveira3@example.com",
+    "password": "Senha@1003",
+    "administrator": false
+  },
+  {
+    "nome": "Daniel Santos",
+    "email": "daniel.santos4@example.com",
+    "password": "Senha@1004",
+    "administrator": false
+  },
+  {
+    "nome": "Eduarda Lima",
+    "email": "eduarda.lima5@example.com",
+    "password": "Senha@1005",
+    "administrator": true
+  },
+  {
+    "nome": "Felipe Costa",
+    "email": "felipe.costa6@example.com",
+    "password": "Senha@1006",
+    "administrator": false
+  },
+  {
+    "nome": "Gabriela Rocha",
+    "email": "gabriela.rocha7@example.com",
+    "password": "Senha@1007",
+    "administrator": false
+  },
+  {
+    "nome": "Henrique Alves",
+    "email": "henrique.alves8@example.com",
+    "password": "Senha@1008",
+    "administrator": true
+  },
+  {
+    "nome": "Isabela Martins",
+    "email": "isabela.martins9@example.com",
+    "password": "Senha@1009",
+    "administrator": false
+  },
+  {
+    "nome": "João Pereira",
+    "email": "joao.pereira10@example.com",
+    "password": "Senha@1010",
+    "administrator": false
+  },
+  {
+    "nome": "Karen Ferreira",
+    "email": "karen.ferreira11@example.com",
+    "password": "Senha@1011",
+    "administrator": true
+  },
+  {
+    "nome": "Lucas Gomes",
+    "email": "lucas.gomes12@example.com",
+    "password": "Senha@1012",
+    "administrator": false
+  },
+  {
+    "nome": "Mariana Ribeiro",
+    "email": "mariana.ribeiro13@example.com",
+    "password": "Senha@1013",
+    "administrator": false
+  },
+  {
+    "nome": "Nicolas Carvalho",
+    "email": "nicolas.carvalho14@example.com",
+    "password": "Senha@1014",
+    "administrator": true
+  },
+  {
+    "nome": "Olivia Fernandes",
+    "email": "olivia.fernandes15@example.com",
+    "password": "Senha@1015",
+    "administrator": false
+  },
+  {
+    "nome": "Paulo Barbosa",
+    "email": "paulo.barbosa16@example.com",
+    "password": "Senha@1016",
+    "administrator": false
+  },
+  {
+    "nome": "Queila Teixeira",
+    "email": "queila.teixeira17@example.com",
+    "password": "Senha@1017",
+    "administrator": true
+  },
+  {
+    "nome": "Rafael Moreira",
+    "email": "rafael.moreira18@example.com",
+    "password": "Senha@1018",
+    "administrator": false
+  },
+  {
+    "nome": "Sabrina Araujo",
+    "email": "sabrina.araujo19@example.com",
+    "password": "Senha@1019",
+    "administrator": false
+  },
+  {
+    "nome": "Tiago Melo",
+    "email": "tiago.melo20@example.com",
+    "password": "Senha@1020",
+    "administrator": true
+  },
+  {
+    "nome": "Ursula Castro",
+    "email": "ursula.castro21@example.com",
+    "password": "Senha@1021",
+    "administrator": false
+  },
+  {
+    "nome": "Victor Nunes",
+    "email": "victor.nunes22@example.com",
+    "password": "Senha@1022",
+    "administrator": false
+  },
+  {
+    "nome": "Wesley Duarte",
+    "email": "wesley.duarte23@example.com",
+    "password": "Senha@1023",
+    "administrator": true
+  },
+  {
+    "nome": "Yasmin Freitas",
+    "email": "yasmin.freitas24@example.com",
+    "password": "Senha@1024",
+    "administrator": false
+  },
+  {
+    "nome": "Zeca Moura",
+    "email": "zeca.moura25@example.com",
+    "password": "Senha@1025",
+    "administrator": false
+  },
+  {
+    "nome": "Amanda Pinto",
+    "email": "amanda.pinto26@example.com",
+    "password": "Senha@1026",
+    "administrator": true
+  },
+  {
+    "nome": "Bernardo Reis",
+    "email": "bernardo.reis27@example.com",
+    "password": "Senha@1027",
+    "administrator": false
+  },
+  {
+    "nome": "Camila Lopes",
+    "email": "camila.lopes28@example.com",
+    "password": "Senha@1028",
+    "administrator": false
+  },
+  {
+    "nome": "Diego Cardoso",
+    "email": "diego.cardoso29@example.com",
+    "password": "Senha@1029",
+    "administrator": true
+  },
+  {
+    "nome": "Elisa Monteiro",
+    "email": "elisa.monteiro30@example.com",
+    "password": "Senha@1030",
+    "administrator": false
+  },
+  {
+    "nome": "Fernando Vieira",
+    "email": "fernando.vieira31@example.com",
+    "password": "Senha@1031",
+    "administrator": false
+  },
+  {
+    "nome": "Giovana Cunha",
+    "email": "giovana.cunha32@example.com",
+    "password": "Senha@1032",
+    "administrator": true
+  },
+  {
+    "nome": "Hugo Ramos",
+    "email": "hugo.ramos33@example.com",
+    "password": "Senha@1033",
+    "administrator": false
+  },
+  {
+    "nome": "Ingrid Correia",
+    "email": "ingrid.correia34@example.com",
+    "password": "Senha@1034",
+    "administrator": false
+  },
+  {
+    "nome": "Juliana Dias",
+    "email": "juliana.dias35@example.com",
+    "password": "Senha@1035",
+    "administrator": true
+  },
+  {
+    "nome": "Kleber Batista",
+    "email": "kleber.batista36@example.com",
+    "password": "Senha@1036",
+    "administrator": false
+  },
+  {
+    "nome": "Larissa Machado",
+    "email": "larissa.machado37@example.com",
+    "password": "Senha@1037",
+    "administrator": false
+  },
+  {
+    "nome": "Mateus Farias",
+    "email": "mateus.farias38@example.com",
+    "password": "Senha@1038",
+    "administrator": true
+  },
+  {
+    "nome": "Natália Borges",
+    "email": "natalia.borges39@example.com",
+    "password": "Senha@1039",
+    "administrator": false
+  },
+  {
+    "nome": "Otávio Rezende",
+    "email": "otavio.rezende40@example.com",
+    "password": "Senha@1040",
+    "administrator": false
+  },
+  {
+    "nome": "Priscila Tavares",
+    "email": "priscila.tavares41@example.com",
+    "password": "Senha@1041",
+    "administrator": true
+  },
+  {
+    "nome": "Renato Pires",
+    "email": "renato.pires42@example.com",
+    "password": "Senha@1042",
+    "administrator": false
+  },
+  {
+    "nome": "Simone Guedes",
+    "email": "simone.guedes43@example.com",
+    "password": "Senha@1043",
+    "administrator": false
+  },
+  {
+    "nome": "Tatiane Neves",
+    "email": "tatiane.neves44@example.com",
+    "password": "Senha@1044",
+    "administrator": true
+  },
+  {
+    "nome": "Valter Aguiar",
+    "email": "valter.aguiar45@example.com",
+    "password": "Senha@1045",
+    "administrator": false
+  },
+  {
+    "nome": "William Campos",
+    "email": "william.campos46@example.com",
+    "password": "Senha@1046",
+    "administrator": false
+  },
+  {
+    "nome": "Xênia Matos",
+    "email": "xenia.matos47@example.com",
+    "password": "Senha@1047",
+    "administrator": true
+  },
+  {
+    "nome": "Yuri Andrade",
+    "email": "yuri.andrade48@example.com",
+    "password": "Senha@1048",
+    "administrator": false
+  },
+  {
+    "nome": "Zilda Peixoto",
+    "email": "zilda.peixoto49@example.com",
+    "password": "Senha@1049",
+    "administrator": false
+  },
+  {
+    "nome": "Aline Mendes",
+    "email": "aline.mendes50@example.com",
+    "password": "Senha@1050",
+    "administrator": true
+  }
+]

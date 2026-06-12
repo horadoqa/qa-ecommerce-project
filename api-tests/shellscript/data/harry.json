@@ -1,0 +1,153 @@
+[
+  {
+    "nome": "Harry Potter",
+    "email": "harry.potter@gryffindor.com",
+    "password": "Expelliarmus123!",
+    "administrator": true
+  },
+  {
+    "nome": "Hermione Granger",
+    "email": "hermione.granger@gryffindor.com",
+    "password": "Leviosa123!",
+    "administrator": true
+  },
+  {
+    "nome": "Ron Weasley",
+    "email": "ron.weasley@gryffindor.com",
+    "password": "Scabbers123!",
+    "administrator": true
+  },
+  {
+    "nome": "Neville Longbottom",
+    "email": "neville.longbottom@gryffindor.com",
+    "password": "Scabbers123!",
+    "administrator": true
+  },
+  {
+    "nome": "Sirius Black",
+    "email": "sirius.black@gryffindor.com",
+    "password": "Scabbers123!",
+    "administrator": true
+  },
+  {
+    "nome": "Albus Dumbledore",
+    "email": "albus.dumbledore@hogwarts.com",
+    "password": "Phoenix123!",
+    "administrator": true
+  },
+  {
+    "nome": "Severus Snape",
+    "email": "severus.snape@slytherin.com",
+    "password": "Always123!",
+    "administrator": true
+  },
+  {
+    "nome": "Tom Riddle",
+    "email": "tom.riddle@slytherin.com",
+    "password": "Always123!",
+    "administrator": true
+  },
+  {
+    "nome": "Bellatrix Lestrange",
+    "email": "bellatrix.lestrange@slytherin.com",
+    "password": "Always123!",
+    "administrator": true
+  },
+  {
+    "nome": "Lucius Malfoy",
+    "email": "lucius.malfoy@slytherin.com",
+    "password": "Always123!",
+    "administrator": true
+  },
+  {
+    "nome": "Rubeus Hagrid",
+    "email": "rubeus.hagrid@hogwarts.com",
+    "password": "Buckbeak123!",
+    "administrator": true
+  },
+  {
+    "nome": "Draco Malfoy",
+    "email": "draco.malfoy@slytherin.com",
+    "password": "Slytherin123!",
+    "administrator": true
+  },
+  {
+    "nome": "Minerva McGonagall",
+    "email": "minerva.mcgonagall@hogwarts.com",
+    "password": "Animagus123!",
+    "administrator": true
+  },
+  {
+    "nome": "Luna Lovegood",
+    "email": "luna.lovegood@hogwarts.com",
+    "password": "Quibbler123!",
+    "administrator": true
+  },
+  {
+    "nome": "Neville Longbottom",
+    "email": "neville.longbottom@hogwarts.com",
+    "password": "Herbology123!",
+    "administrator": true
+  },
+  {
+    "nome": "Remus Lupin",
+    "email": "remus.lupin@hogwarts.com",
+    "password": "Moony123!",
+    "administrator": true
+  },
+  {
+    "nome": "Ginny Weasley",
+    "email": "ginny.weasley@hogwarts.com",
+    "password": "Chamber123!",
+    "administrator": true
+  },
+  {
+    "nome": "Fred Weasley",
+    "email": "fred.weasley@hogwarts.com",
+    "password": "WeasleyJokes123!",
+    "administrator": true
+  },
+  {
+    "nome": "George Weasley",
+    "email": "george.weasley@hogwarts.com",
+    "password": "WeasleyMagic123!",
+    "administrator": true
+  },
+  {
+    "nome": "Lord Voldemort",
+    "email": "tom.riddle@hogwarts.com",
+    "password": "Horcrux123!",
+    "administrator": true
+  },
+  {
+    "nome": "Dobby",
+    "email": "dobby@hogwarts.com",
+    "password": "SockFree123!",
+    "administrator": true
+  }
+  ,
+  {
+    "nome": "Cedric Diggory",
+    "email": "cedric.diggory@hufflepuff.com",
+    "password": "Hufflepuff123!",
+    "administrator": true
+  },
+  {
+    "nome": "Nymphadora Tonks",
+    "email": "nymphadora.tonks@hufflepuff.com",
+    "password": "Hufflepuff123!",
+    "administrator": true
+  },
+  {
+    "nome": "Pomona Sprout",
+    "email": "pomona.sprout@hufflepuff.com",
+    "password": "Hufflepuff123!",
+    "administrator": true
+  },
+  {
+    "nome": "Newt Scamander",
+    "email": "newt.scamander@hufflepuff.com",
+    "password": "Hufflepuff123!",
+    "administrator": true
+  }
+]

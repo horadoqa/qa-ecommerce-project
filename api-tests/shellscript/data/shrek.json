@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Shrek",
+    "email": "shrek@farfaraway.com",
+    "password": "Ogro123!",
+    "administrator": true
+  },
+  {
+    "nome": "Fiona",
+    "email": "fiona@farfaraway.com",
+    "password": "Princesa123!",
+    "administrator": true
+  },
+  {
+    "nome": "Burro",
+    "email": "burro@farfaraway.com",
+    "password": "Falante123!",
+    "administrator": true
+  },
+  {
+    "nome": "Gato de Botas",
+    "email": "gato@farfaraway.com",
+    "password": "Botas123!",
+    "administrator": true
+  },
+  {
+    "nome": "Lord Farquaad",
+    "email": "farquaad@duloc.com",
+    "password": "Duloc123!",
+    "administrator": true
+  },
+  {
+    "nome": "Gingerbread Man",
+    "email": "gingy@farfaraway.com",
+    "password": "Biscoito123!",
+    "administrator": true
+  },
+  {
+    "nome": "Dragão",
+    "email": "dragon@farfaraway.com",
+    "password": "Fogo123!",
+    "administrator": true
+  }
+]

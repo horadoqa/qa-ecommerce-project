@@ -1,0 +1,302 @@
+[
+  {
+    "nome": "Controle Sem Fio",
+    "preco": 199,
+    "descricao": "Controle Bluetooth compatível com PC e console",
+    "quantidade": 32
+  },
+  {
+    "nome": "Notebook Ultra 14",
+    "preco": 3499,
+    "descricao": "Notebook com processador i5 e 8GB RAM",
+    "quantidade": 15
+  },
+  {
+    "nome": "Mouse Óptico USB",
+    "preco": 49,
+    "descricao": "Mouse óptico com conexão USB",
+    "quantidade": 120
+  },
+  {
+    "nome": "Teclado Mecânico RGB",
+    "preco": 299,
+    "descricao": "Teclado mecânico com iluminação RGB",
+    "quantidade": 45
+  },
+  {
+    "nome": "Monitor 24 Polegadas",
+    "preco": 899,
+    "descricao": "Monitor Full HD de 24 polegadas",
+    "quantidade": 30
+  },
+  {
+    "nome": "Headset Gamer Pro",
+    "preco": 249,
+    "descricao": "Headset gamer com microfone removível",
+    "quantidade": 60
+  },
+  {
+    "nome": "Webcam HD 1080p",
+    "preco": 159,
+    "descricao": "Webcam Full HD para videoconferências",
+    "quantidade": 40
+  },
+  {
+    "nome": "SSD 480GB",
+    "preco": 229,
+    "descricao": "Unidade SSD SATA de 480GB",
+    "quantidade": 80
+  },
+  {
+    "nome": "HD Externo 1TB",
+    "preco": 349,
+    "descricao": "Disco rígido externo USB 3.0",
+    "quantidade": 25
+  },
+  {
+    "nome": "Pen Drive 64GB",
+    "preco": 39,
+    "descricao": "Pen drive USB 3.0 de 64GB",
+    "quantidade": 200
+  },
+  {
+    "nome": "Roteador Wi-Fi 6",
+    "preco": 499,
+    "descricao": "Roteador dual band com Wi-Fi 6",
+    "quantidade": 18
+  },
+  {
+    "nome": "Smartphone Alpha X",
+    "preco": 1899,
+    "descricao": "Smartphone com tela AMOLED de 6.5 polegadas",
+    "quantidade": 35
+  },
+  {
+    "nome": "Capa para Smartphone",
+    "preco": 29,
+    "descricao": "Capa protetora em silicone",
+    "quantidade": 150
+  },
+  {
+    "nome": "Película de Vidro",
+    "preco": 19,
+    "descricao": "Película de vidro temperado",
+    "quantidade": 300
+  },
+  {
+    "nome": "Carregador USB-C",
+    "preco": 89,
+    "descricao": "Carregador rápido 20W USB-C",
+    "quantidade": 75
+  },
+  {
+    "nome": "Cabo USB-C 1m",
+    "preco": 24,
+    "descricao": "Cabo USB-C para carregamento e dados",
+    "quantidade": 180
+  },
+  {
+    "nome": "Caixa de Som Bluetooth",
+    "preco": 179,
+    "descricao": "Caixa de som portátil Bluetooth",
+    "quantidade": 50
+  },
+  {
+    "nome": "Smartwatch Fit",
+    "preco": 499,
+    "descricao": "Relógio inteligente para atividades físicas",
+    "quantidade": 22
+  },
+  {
+    "nome": "Tablet 10 Polegadas",
+    "preco": 1299,
+    "descricao": "Tablet com 64GB de armazenamento",
+    "quantidade": 28
+  },
+  {
+    "nome": "Impressora Multifuncional",
+    "preco": 799,
+    "descricao": "Impressora com scanner e copiadora",
+    "quantidade": 12
+  },
+  {
+    "nome": "Cartucho Preto",
+    "preco": 79,
+    "descricao": "Cartucho de tinta preta compatível",
+    "quantidade": 90
+  },
+  {
+    "nome": "Cadeira Gamer",
+    "preco": 1199,
+    "descricao": "Cadeira ergonômica para jogos",
+    "quantidade": 14
+  },
+  {
+    "nome": "Mesa para Escritório",
+    "preco": 599,
+    "descricao": "Mesa de escritório em MDF",
+    "quantidade": 20
+  },
+  {
+    "nome": "Luminária LED",
+    "preco": 69,
+    "descricao": "Luminária de mesa com LED ajustável",
+    "quantidade": 55
+  },
+  {
+    "nome": "Filtro de Linha",
+    "preco": 39,
+    "descricao": "Filtro de linha com 6 tomadas",
+    "quantidade": 100
+  },
+  {
+    "nome": "Estabilizador 500VA",
+    "preco": 249,
+    "descricao": "Estabilizador bivolt automático",
+    "quantidade": 18
+  },
+  {
+    "nome": "Ventilador de Mesa",
+    "preco": 139,
+    "descricao": "Ventilador oscilante de mesa",
+    "quantidade": 35
+  },
+  {
+    "nome": "Ar Condicionado 12000BTU",
+    "preco": 2299,
+    "descricao": "Ar condicionado split inverter",
+    "quantidade": 8
+  },
+  {
+    "nome": "Cafeteira Elétrica",
+    "preco": 189,
+    "descricao": "Cafeteira elétrica para 30 xícaras",
+    "quantidade": 25
+  },
+  {
+    "nome": "Liquidificador Turbo",
+    "preco": 149,
+    "descricao": "Liquidificador com 12 velocidades",
+    "quantidade": 40
+  },
+  {
+    "nome": "Micro-ondas 20L",
+    "preco": 499,
+    "descricao": "Forno micro-ondas de 20 litros",
+    "quantidade": 15
+  },
+  {
+    "nome": "Geladeira Frost Free",
+    "preco": 3299,
+    "descricao": "Geladeira frost free 400 litros",
+    "quantidade": 6
+  },
+  {
+    "nome": "Fogão 4 Bocas",
+    "preco": 899,
+    "descricao": "Fogão a gás com acendimento automático",
+    "quantidade": 10
+  },
+  {
+    "nome": "Panela Elétrica",
+    "preco": 229,
+    "descricao": "Panela elétrica multifuncional",
+    "quantidade": 20
+  },
+  {
+    "nome": "Jogo de Facas",
+    "preco": 99,
+    "descricao": "Conjunto com 6 facas inox",
+    "quantidade": 50
+  },
+  {
+    "nome": "Garrafa Térmica 1L",
+    "preco": 59,
+    "descricao": "Garrafa térmica em inox",
+    "quantidade": 80
+  },
+  {
+    "nome": "Mochila Executiva",
+    "preco": 149,
+    "descricao": "Mochila para notebook até 15.6 polegadas",
+    "quantidade": 45
+  },
+  {
+    "nome": "Mala de Viagem Média",
+    "preco": 299,
+    "descricao": "Mala rígida com rodas 360 graus",
+    "quantidade": 18
+  },
+  {
+    "nome": "Livro de Programação",
+    "preco": 89,
+    "descricao": "Guia completo de desenvolvimento web",
+    "quantidade": 70
+  },
+  {
+    "nome": "Agenda Executiva",
+    "preco": 34,
+    "descricao": "Agenda anual capa dura",
+    "quantidade": 110
+  },
+  {
+    "nome": "Caneta Esferográfica",
+    "preco": 2,
+    "descricao": "Caneta azul ponta média",
+    "quantidade": 500
+  },
+  {
+    "nome": "Pacote Papel A4",
+    "preco": 29,
+    "descricao": "Resma com 500 folhas A4",
+    "quantidade": 200
+  },
+  {
+    "nome": "Calculadora Científica",
+    "preco": 79,
+    "descricao": "Calculadora científica com 240 funções",
+    "quantidade": 30
+  },
+  {
+    "nome": "Quadro Branco 90x60",
+    "preco": 129,
+    "descricao": "Quadro branco magnético",
+    "quantidade": 15
+  },
+  {
+    "nome": "Projetor Multimídia",
+    "preco": 2499,
+    "descricao": "Projetor Full HD para apresentações",
+    "quantidade": 7
+  },
+  {
+    "nome": "Câmera de Segurança",
+    "preco": 399,
+    "descricao": "Câmera IP com visão noturna",
+    "quantidade": 25
+  },
+  {
+    "nome": "Sensor de Presença",
+    "preco": 49,
+    "descricao": "Sensor infravermelho para iluminação",
+    "quantidade": 60
+  },
+  {
+    "nome": "Lâmpada LED 12W",
+    "preco": 14,
+    "descricao": "Lâmpada LED econômica branca fria",
+    "quantidade": 300
+  },
+  {
+    "nome": "Bateria Externa 10000mAh",
+    "preco": 119,
+    "descricao": "Power bank com duas portas USB",
+    "quantidade": 40
+  },
+  {
+    "nome": "Drone Compacto",
+    "preco": 1599,
+    "descricao": "Drone com câmera HD e GPS",
+    "quantidade": 9
+  }
+]

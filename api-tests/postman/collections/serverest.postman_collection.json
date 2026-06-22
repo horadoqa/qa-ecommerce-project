@@ -765,6 +765,197 @@
         }
       ],
       "description": "Cenários que envolvem o Produto."
+    },
+    {
+      "name": "Query Parameters",
+      "item": [
+        {
+          "name": "admin",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const response = pm.response.json();\r",
+                  "\r",
+                  "const usuarios = response.usuarios.map(usuario => ({\r",
+                  "    nome: usuario.nome,\r",
+                  "    email: usuario.email\r",
+                  "}));\r",
+                  "\r",
+                  "console.log(usuarios);"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/usuarios?administrador=true",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ],
+              "query": [
+                {
+                  "key": "administrador",
+                  "value": "true"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "name",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/usuarios?nome=Ricardo Fahham",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ],
+              "query": [
+                {
+                  "key": "nome",
+                  "value": "Ricardo Fahham"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "email",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/usuarios?email=ricardo.qa.teste@example.com",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ],
+              "query": [
+                {
+                  "key": "email",
+                  "value": "ricardo.qa.teste@example.com"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "name+email",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/usuarios?nome=Ricardo Fahham&email=ricardo.qa.teste@example.com",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "usuarios"
+              ],
+              "query": [
+                {
+                  "key": "nome",
+                  "value": "Ricardo Fahham"
+                },
+                {
+                  "key": "email",
+                  "value": "ricardo.qa.teste@example.com"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "product",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/produtos?nome=Logitech MX Vertical",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "produtos"
+              ],
+              "query": [
+                {
+                  "key": "nome",
+                  "value": "Logitech MX Vertical"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "preco",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://serverest.dev/produtos?preco=470",
+              "protocol": "https",
+              "host": [
+                "serverest",
+                "dev"
+              ],
+              "path": [
+                "produtos"
+              ],
+              "query": [
+                {
+                  "key": "preco",
+                  "value": "470"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "Query Parameters: filtrar no servidor\n\nQuando você realizada uma requisição no servidor, o servidor recebe o filtro e retorna apenas os registros que atendem ao critério.\n\n``` bash\ncurl \"https://serverest.dev/usuarios?nome=João\"\n\n ```\n\n**Vantagens:**\n\n- Menos dados trafegando pela rede.\n    \n- Resposta mais rápida.\n    \n- Menor consumo de memória no cliente.\n    \n- A lógica de busca fica centralizada na API.\n    \n- Funciona bem com grandes volumes de dados.\n    \n\n**Prefira Query Parameters quando:**\n\n- A API oferece o filtro que você precisa.\n    \n- Você quer performance.\n    \n- O volume de dados pode crescer."
     }
   ],
   "event": [
